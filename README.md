@@ -49,11 +49,6 @@ The project combines multiple types of data. Not every variable is used by every
 - **Air Temperature**
 - **Wind Direction**
 
-### Location Data
-- **Latitude**
-- **Longitude**
-- **Water Depth**
-
 ---
 
 # Web Application Screenshots
