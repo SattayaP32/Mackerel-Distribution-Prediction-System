@@ -1,0 +1,106 @@
+{
+  "train": {
+    "years": [
+      2562,
+      2563,
+      2564,
+      2565,
+      2566
+    ],
+    "rows": 263
+  },
+  "test": {
+    "year": 2567,
+    "rows": 60
+  },
+  "target_definition": {
+    "method": "percentile",
+    "low_medium_boundary": 8.0,
+    "medium_high_boundary": 37.920000000000016,
+    "definition": {
+      "LOW": "amount <= 8.000000",
+      "MEDIUM": "8.000000 < amount <= 37.920000",
+      "HIGH": "amount > 37.920000"
+    }
+  },
+  "accuracy": 0.6833333333333333,
+  "precision_macro": 0.6427825261158594,
+  "recall_macro": 0.6264859023479713,
+  "f1_macro": 0.6229809616906391,
+  "balanced_accuracy": 0.6264859023479713,
+  "confusion_matrix": {
+    "labels": [
+      "LOW",
+      "MEDIUM",
+      "HIGH"
+    ],
+    "matrix": [
+      [
+        8,
+        10,
+        0
+      ],
+      [
+        5,
+        7,
+        1
+      ],
+      [
+        0,
+        3,
+        26
+      ]
+    ]
+  },
+  "classification_report": {
+    "LOW": {
+      "precision": 0.6153846153846154,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.5161290322580645,
+      "support": 18.0
+    },
+    "MEDIUM": {
+      "precision": 0.35,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.42424242424242425,
+      "support": 13.0
+    },
+    "HIGH": {
+      "precision": 0.9629629629629629,
+      "recall": 0.896551724137931,
+      "f1-score": 0.9285714285714286,
+      "support": 29.0
+    },
+    "accuracy": 0.6833333333333333,
+    "macro avg": {
+      "precision": 0.6427825261158594,
+      "recall": 0.6264859023479713,
+      "f1-score": 0.6229809616906391,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.7258808167141501,
+      "recall": 0.6833333333333333,
+      "f1-score": 0.6955674254061351,
+      "support": 60.0
+    }
+  },
+  "features": [
+    "sst",
+    "chlorophyll_a",
+    "rainfall",
+    "wind_speed",
+    "month",
+    "year",
+    "station_id"
+  ],
+  "feature_importance": {
+    "sst": 0.15253996898348962,
+    "chlorophyll_a": 0.1774671294455281,
+    "rainfall": 0.1047430646425743,
+    "wind_speed": 0.19102282012073826,
+    "month": 0.11912676691075244,
+    "year": 0.10200760518430475,
+    "station_id": 0.15309264471261258
+  }
+}

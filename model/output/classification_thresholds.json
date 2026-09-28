@@ -1,0 +1,10 @@
+{
+  "method": "percentile",
+  "low_medium_boundary": 8.0,
+  "medium_high_boundary": 37.920000000000016,
+  "definition": {
+    "LOW": "amount <= 8.000000",
+    "MEDIUM": "8.000000 < amount <= 37.920000",
+    "HIGH": "amount > 37.920000"
+  }
+}

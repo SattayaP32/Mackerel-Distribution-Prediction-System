@@ -1,0 +1,16 @@
+# Python libraries required by the project
+pandas
+numpy
+scikit-learn
+mysql-connector-python
+pymysql
+joblib
+matplotlib
+scipy
+requests
+SQLAlchemy
+
+# Other software used by the web application
+# PHP
+# MySQL / MariaDB
+# A local web server such as XAMPP or equivalent

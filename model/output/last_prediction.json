@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "prediction": "MEDIUM",
+  "prediction_th": "ปานกลาง",
+  "confidence": 0.72,
+  "probabilities": {
+    "LOW": 0.15666666666666668,
+    "MEDIUM": 0.72,
+    "HIGH": 0.12333333333333334
+  },
+  "mode": "auto",
+  "input": {
+    "year": 2567,
+    "month": 9,
+    "province": "สมุทรปราการ",
+    "station_id": 5,
+    "sst": 30.27,
+    "chlorophyll_a": 28.61,
+    "rainfall": 99.99999999,
+    "wind_speed": 16.77666664
+  }
+}
