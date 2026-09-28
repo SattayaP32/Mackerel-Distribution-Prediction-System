@@ -65,7 +65,7 @@ The homepage introduces the project and provides access to the system's main Mac
 
 This page is used to review and manage historical data by location, year, month, and related information.
 
-![Short Mackerel Data Management](screenshots/02-mackerel-data-management.png)
+![Short Mackerel Data Management](Screenshot/02-mackerel-data-management.png)
 
 ---
 
@@ -73,7 +73,7 @@ This page is used to review and manage historical data by location, year, month,
 
 The Regression page uses historical fisheries, marine environmental, and weather data to estimate short mackerel quantity as a numerical prediction.
 
-![Linear Regression](screenshots/03-regression.png)
+![Linear Regression](Screenshot/03-regression.png)
 
 ---
 
@@ -81,7 +81,7 @@ The Regression page uses historical fisheries, marine environmental, and weather
 
 The Classification page predicts the short mackerel quantity level and classifies the result into **LOW, MEDIUM, or HIGH**.
 
-![Random Forest Classification](screenshots/04-classification.png)
+![Random Forest Classification](Screenshot/04-classification.png)
 
 ---
 
@@ -89,7 +89,7 @@ The Classification page predicts the short mackerel quantity level and classifie
 
 The Clustering page groups records with similar environmental characteristics to support pattern and area analysis.
 
-![K-Means Clustering](screenshots/05-clustering.png)
+![K-Means Clustering](Screenshot/05-clustering.png)
 
 ---
 
@@ -97,7 +97,7 @@ The Clustering page groups records with similar environmental characteristics to
 
 The Prediction Dashboard combines model outputs into a single interface for selecting prediction parameters and viewing the predicted short mackerel quantity and related analysis.
 
-![Prediction Dashboard](screenshots/06-prediction-dashboard.png)
+![Prediction Dashboard](Screenshot/06-prediction-dashboard.png)
 
 ---
 
