@@ -1,7 +1,5 @@
 # Short Mackerel Distribution Prediction System
 
-## University Project
-
 This project is a **university project** developed as a web-based system for predicting and analyzing the distribution of **short mackerel in the Upper Gulf of Thailand**.
 
 The system combines fisheries data, marine environmental data, and weather data with Machine Learning techniques to support the analysis of short mackerel abundance and distribution.
@@ -25,14 +23,6 @@ The overall workflow of the system is:
 5. **Train Machine Learning models** using historical fisheries and environmental variables.
 6. **Generate predictions and analytical results** using Regression, Classification, and Clustering.
 7. **Display the results through the web application** using tables, graphs, and a prediction dashboard.
-
-### Open Data Sources Used
-
-The project retrieves environmental and weather data from open-data services, including:
-
-- **NOAA ERDDAP** — Sea Surface Temperature (SST)
-- **NOAA / OceanWatch ERDDAP** — Chlorophyll-a
-- **Open-Meteo Historical API** — weather and atmospheric variables
 
 ---
 
@@ -76,9 +66,9 @@ The homepage introduces the project and provides access to the system's main Mac
 
 ---
 
-## 2. Short Mackerel Data Management
+## 2. Data Management
 
-This page is used to review and manage historical short mackerel catch data by location, year, month, and related information.
+This page is used to review and manage historical data by location, year, month, and related information.
 
 ![Short Mackerel Data Management](screenshots/02-mackerel-data-management.png)
 
@@ -113,5 +103,77 @@ The Clustering page groups records with similar environmental characteristics to
 The Prediction Dashboard combines model outputs into a single interface for selecting prediction parameters and viewing the predicted short mackerel quantity and related analysis.
 
 ![Prediction Dashboard](screenshots/06-prediction-dashboard.png)
+
+---
+
+
+# Project Team & Responsibilities
+
+## Theerapat Pokkaew
+
+**Project Manager / Classification / Web Development**
+
+- Project management and team coordination
+- Random Forest Classification model development
+- Design and development of the web application
+- Development of Archive pages
+- Database integration for historical data
+- Home page development
+
+---
+
+## Sattaya Pokkaew
+
+**Regression / Data Analyst**
+
+- Linear Regression model development
+- Dataset research and collection
+- External API data collection
+- Data preprocessing
+- Data normalization
+- Training data preparation
+
+---
+
+## Panyakorn Khaiwchoo
+
+**Clustering / Data Analyst**
+
+- K-Means Clustering model development
+- Dataset research and collection
+- External API data collection
+- Data preprocessing
+- Data normalization
+- Training data preparation
+
+---
+
+# Required Libraries
+
+Install the required Python libraries before running the Machine Learning and data-processing components of the project.
+
+```bash
+pip install pandas numpy scikit-learn mysql-connector-python pymysql joblib matplotlib scipy requests SQLAlchemy
+```
+
+### Python Libraries Used
+
+- **pandas** — data loading, cleaning, preprocessing, and analysis
+- **numpy** — numerical operations
+- **scikit-learn** — Linear Regression, Random Forest Classification, K-Means Clustering, preprocessing, and model evaluation
+- **mysql-connector-python** — connecting Python to MySQL
+- **PyMySQL** — MySQL database connectivity
+- **joblib** — saving and loading trained Machine Learning models
+- **matplotlib** — data visualization and graphs
+- **scipy** — scientific and statistical calculations
+- **requests** — retrieving data from external APIs
+- **SQLAlchemy** — database connection and data handling
+
+### Required Software
+
+- **Python**
+- **PHP**
+- **MySQL / MariaDB**
+- **XAMPP** or another local Apache/PHP/MySQL web server
 
 ---
