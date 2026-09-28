@@ -57,7 +57,7 @@ The project combines multiple types of data. Not every variable is used by every
 
 The homepage introduces the project and provides access to the system's main Machine Learning and prediction features.
 
-![Homepage](screenshots/01-homepage.png)
+![Homepage](Screenshot/01-homepage.png)
 
 ---
 
